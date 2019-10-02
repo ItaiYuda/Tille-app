@@ -1,0 +1,26 @@
+input[type='email'] {
+    width: 70%;
+    padding: 10px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    border: none;   
+    border-bottom: 2px solid gray; 
+    outline: none;
+    background: transparent;
+    color: #494949;
+}
+
+input[type='email']:hover {
+    cursor: text;
+}
+
+.error-message {
+    height: 15px;
+    margin-bottom: 10px;
+    color: red;
+}
+input[type='submit']{
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.news-tile {
+    border: 1px solid black;
+    padding: 10px;
+    --lh: 1.4rem;
+    line-height: var(--lh);
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+  
+.overflow {
+    position: relative;
+    max-height: calc(var(--lh) * var(--max-lines));
+    padding-right: 1rem; /* space for ellipsis */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.news-container{
+    margin: 5px auto;
+}
+
+.news-update{
+    color: red;
+    font-weight: 500;
+}
+  
